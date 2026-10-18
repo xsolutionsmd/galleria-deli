@@ -31,7 +31,7 @@ Identity, research, usable assets, scope, template, content, reconstruction and 
 
 ## Coordinator checkpoint
 
-October 18, 2026: Derek explicitly answered "Accept browser evidence and continue" for Galleria Deli only. The documented browser inspection substitutes for the rejected REA capture; this supersedes the earlier pending-decision checkpoint. REA was not run and the denied helper must not be retried. Exact historical error/evidence remains in private/runs/template-analysis/rea-status.json. This exception changes no other company or remaining quality gate.
+October 18, 2026: Derek first accepted Galleria's browser evidence, then explicitly corrected the canonical workflow: REA is preferred tooling, not a required gate. Ordinary browser/devtools inspection is the nonblocking fallback without a waiver or repair wait. Galleria's documented reference/DOM/styles/layout/interaction evidence and populated reconstruction remain accepted. REA was not run and the denied helper must not be retried. Exact historical error/evidence remains in private/runs/template-analysis/rea-status.json. Copied company instructions are reconciled and Claude was steered with this correction; remaining ordered stages and quality requirements are unchanged.
 
 Sol reconstruction task is accepted, terminal with no pending runs, and released. Coordinator owns state and this handoff. Claude Opus 5.5 High receives exclusive frontend refinement next; no parallel frontend writer. Static runtime contract is docs/API.md with private runtime receipt. Test container and image were removed after checked ownership; current local Vite preview at http://127.0.0.1:4391/ and source dependencies remain for immediate refinement. Recheck temporary build/cache retention at final delivery.
 

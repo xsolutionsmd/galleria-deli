@@ -14,6 +14,11 @@ local implementation route; preserve task-specific role restrictions and existin
 branch, endpoint and release boundaries. Keep separate pages where requested,
 no decorative numbering, and the already confirmed business-asset authorization.
 
+Derek's October 18, 2026 correction: REA failure never blocks the pipeline. Use
+ordinary browser/devtools reference inspection, desktop/mobile captures and flow
+checks; document the actual method and continue without a waiver or repair wait.
+Do not repeat known rejected helper attempts or describe fallback evidence as REA.
+
 ## Optional Inspo discovery on another computer or agent container
 
 Python 3.10+ and a working Codex CLI are enough for the connector helper:
