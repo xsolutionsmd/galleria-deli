@@ -26,19 +26,22 @@ Pipeline status (generated 2026-10-18T14:53:52.119999+00:00):
 
 ## Current state
 
-Workflow: server-first (default). Full endpoint. Nothing published yet.
-Identity, research, usable assets, scope, template, content, reconstruction and static runtime are accepted. Sol source revision `294e80c1c54857e703d57475c604dae98f786b65` contains all four pages, 54 official menu items and twelve optimized authentic photos. Coordinator independently checked its production container and inspected desktop/mobile output.
+Workflow: server-first (default), full endpoint. First production release is verified at https://galleriadeli.xsolutionsmd.com, revision `50e41e0a595cbc81bb76e078076d7d3db6981ed5`. All four pages, health/version, valid HTTPS and noindex passed. First-live Slack was posted to Abdul and read back after reload; private receipt records the permalink. Infrastructure, previews, independent live review and final delivery remain pending.
 
 ## Coordinator checkpoint
 
-October 18, 2026: Derek first accepted Galleria's browser evidence, then explicitly corrected the canonical workflow: REA is preferred tooling, not a required gate. Ordinary browser/devtools inspection is the nonblocking fallback without a waiver or repair wait. Galleria's documented reference/DOM/styles/layout/interaction evidence and populated reconstruction remain accepted. REA was not run and the denied helper must not be retried. Exact historical error/evidence remains in private/runs/template-analysis/rea-status.json. Copied company instructions are reconciled and Claude was steered with this correction; remaining ordered stages and quality requirements are unchanged.
+Identity through first-live Slack are accepted. Sol reconstructed the populated four-page site; Claude made the visual refinements and local checks, then exhausted its five-hour usage limit before handoff. The coordinator stopped/revoked the task and verified no pending run before Astra xhigh completed the preserved source and verification under the authorized fallback. The private ledger contains exact identities/evidence. No competing frontend writer remains.
 
-Sol reconstruction task is accepted, terminal with no pending runs, and released. Coordinator owns state and this handoff. Claude Opus 5.5 High receives exclusive frontend refinement next; no parallel frontend writer. Static runtime contract is docs/API.md with private runtime receipt. Test container and image were removed after checked ownership; current local Vite preview at http://127.0.0.1:4391/ and source dependencies remain for immediate refinement. Recheck temporary build/cache retention at final delivery.
+Derek's October18 canonical correction is active: REA is preferred tooling, never a blocking gate when it cannot work. Sufficient ordinary browser/devtools reference inspection is the normal fallback, with actual method, content mapping and desktop/mobile/flow checks documented. No failed helper retry or repair wait. Copied company instructions and active delegates received the correction.
+
+Production currently uses the minimal direct ARM64 image and Compose at /opt/galleria-deli, alias galleria-deli:8080. No updater or GitHub infrastructure exists yet. Gateway addition used the existing lock, fresh read/CAS, validation and reload. All25 earlier container identities/images remained unchanged. Detailed release artifacts/receipt are private/first-release and private/runs/first-release-remote.json; live-production.json is public GET verification.
 
 ## Next step
 
-Claude refines Sol's existing source with the full KB/assets and captured Francis Deli reference. Astra accepts and performs readiness checks, then first Oracle publication and immediate Slack URL. Sol xhigh infrastructure follows, then independent Sol live review, Astra corrections, Sol recheck and final Sol delivery. No GitHub remote, public URL or Slack receipt exists yet. Francis Deli has mixed photo/text menu cards, so a conditional Derek-only photo variation is not applicable.
+Sol6.1 xhigh owns post-publication infrastructure: dedicated public repository, main/derek-dev/abdul-dev, protections/Actions, managed packages and three independent environments. Reuse the live company stack. Then independent Sol High live interaction review; Astra fixes and publishes; Sol rechecks; exclusive final Sol verification/media/Slack handoff. First live is a milestone only.
 
-## Material gaps
+## Material gaps and retention
 
-Catering package/lead-time details and any external ordering service remain unverified and are not promised. Asset coverage: 15 menu matches (11 confirmed, four likely), 39 explicit photo gaps; the implementation uses nine confirmed dish mappings only. No Korean bowl photo is fabricated. Published weekly hours are sourced; historical Google next-opening discrepancy and holiday hours remain unverified. No inferred customer sale.
+Full54-item published menu, twelve authentic photo derivatives (nine confirmed item-photo mappings). Thirty-nine library items have no matched photo; no Korean bowl photos are fabricated. Catering packages/lead times/external checkout remain unverified and are not promised. Weekly hours are sourced; historical Google next-opening discrepancy and holiday hours remain unverified. No inferred sale or business outreach.
+
+Local runtime/check/rehearsal containers and synthetic networks/volumes are removed; scoped test images are removed. Local Vite4391 and dependencies remain for near-term review. The22.5MB ARM64 tar and remote staging directory remain only until managed infrastructure is verified; recycle the local tar and remove exact remote staging files then. Retain current live image until managed replacement is proven. Inspect company-only cache/resources at final cleanup and preserve all unrelated environments.
