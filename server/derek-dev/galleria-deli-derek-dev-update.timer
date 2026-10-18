@@ -1,0 +1,11 @@
+[Unit]
+Description=Check galleria-deli-derek-dev approved releases
+
+[Timer]
+OnBootSec=45s
+OnUnitInactiveSec=60s
+AccuracySec=5s
+Unit=galleria-deli-derek-dev-update.service
+
+[Install]
+WantedBy=timers.target

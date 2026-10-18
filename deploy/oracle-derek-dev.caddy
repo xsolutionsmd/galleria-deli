@@ -1,0 +1,3 @@
+d-galleriadeli.xsolutionsmd.com {
+    reverse_proxy galleria-deli-derek-dev:8080
+}

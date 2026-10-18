@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "name": "galleria-deli-derek-dev",
+  "project": "galleria-deli-derek-dev",
+  "source": "https://github.com/xsolutionsmd/galleria-deli",
+  "repositories": {
+    "image": "ghcr.io/xsolutionsmd/galleria-deli-derek-dev"
+  },
+  "state_dir": "/var/lib/galleria-deli-derek-dev-deploy",
+  "current": "current.json",
+  "recovery_files": [
+    "previous.env",
+    "previous-current.json"
+  ],
+  "pending_globs": [
+    "transaction",
+    "transaction.json",
+    "transaction.json.new",
+    "check.*",
+    "check-*"
+  ],
+  "keep_previous": 2,
+  "minimum_age_hours": 24
+}
