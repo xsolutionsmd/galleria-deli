@@ -42,11 +42,20 @@ refreshes the generated status block.
 
 ## Rules for this repository
 
+- After an authorized publication, update the existing team Slack website URL
+  source of truth, then send the verified short URL and directory link to the
+  established updates channel. First-live wording: "<Company> website published at
+  <URL>." Keep that same document current at final handoff, later releases, preview
+  additions, URL changes and retirements; preserve other businesses. Use the new
+  short URL convention only, with no old-URL compatibility note. The installed XS
+  skill's `references/website-url-directory.md` owns document identity, readback,
+  retry and single-writer rules. Keep cross-client content and receipts private.
+
 - REA is preferred tooling, not a required gate (Derek, October 18, 2026). If it
-  fails or is unavailable, use ordinary browser/devtools inspection and continue
-  without a permission or repair wait. Do not repeat known rejected helper starts.
-  Record the actual method; sufficient rendered/DOM/style/layout and interaction
-  evidence can pass reconstruction. Desktop/mobile checks and real content remain required.
+  cannot work after bounded recovery, use ordinary browser/devtools inspection,
+  record the method/limitation and continue without a permission or repair wait.
+  Sufficient browser evidence can pass reconstruction; actual reference inspection,
+  populated implementation and desktop/mobile interaction checks remain required.
 
 - Current XS workflow: no Stitch, including trial attempts. Reconcile older design
   rules with the current user request before delegation. Use researched company

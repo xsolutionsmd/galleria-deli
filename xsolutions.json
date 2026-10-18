@@ -137,7 +137,26 @@
       "status": "pending"
     },
     "build": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T15:54:55.126777+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "refine": "2026-10-18T15:53:04.603644+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Final npm/static/public checks passed; app.py check passed container tests/health/source/revision; exact first-release Compose rehearsed isolated non-root read-only healthy with /tmp /data /config tmpfs and exact revision. Browser desktop/mobile/images/keyboard/containment checked. ARM64 artifact built with nginx config validation. Test resources removed."
+      ],
+      "revision": "50e41e0a595cbc81bb76e078076d7d3db6981ed5",
+      "inputs_sha256": {
+        "kb/features.md": "b6be25517c930b322c9790b4a769c4bbb7b070a65741884f11c2b9ca6ebedd99",
+        "kb/design-brief.md": "0a32cfe1a3a8f3124723f369c3eb94c5fb23a4fbb851cdccbeaaf2b2bd85a9ca"
+      },
+      "content_recorded": "2026-10-18T14:53:11.060269+00:00"
     },
     "first-publish": {
       "status": "pending"
@@ -146,7 +165,20 @@
       "status": "pending"
     },
     "infra": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T16:34:33.042244+00:00",
+      "workflow_version": 2,
+      "owner": "sol-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Ad7f4b7c5-bc0d-4d6f-bb45-fee46b08e8a9%3Adelegate-task%3Agalleria-infra-r1-20261018",
+      "prerequisites": {
+        "first-publish": "2026-10-18T15:56:02.490865+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Public xsolutionsmd/galleria-deli; three independent managed environments at0dffaaf; strict PR checks and branch restricted environments; six push runs succeeded, anonymous GHCR, locked gateway and scoped cleanup proven. Inspected private/runs/infra-r1.json and independent live verification."
+      ]
     },
     "review": {
       "status": "pending"
@@ -167,5 +199,5 @@
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T14:53:10.839119+00:00"
+  "updated": "2026-10-18T16:34:33.057024+00:00"
 }
