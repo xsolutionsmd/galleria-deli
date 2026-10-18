@@ -1,0 +1,171 @@
+{
+  "schema": 2,
+  "toolkit": "xs-website 2.0 (2026-10-17)",
+  "name": "Galleria Deli",
+  "slug": "galleria-deli",
+  "created": "2026-10-18T14:27:55.684650+00:00",
+  "repository": "xsolutionsmd/galleria-deli",
+  "visibility": "public",
+  "url_key": "galleriadeli",
+  "build_type": "landing",
+  "features": [
+    "menu",
+    "catering-inquiry",
+    "call",
+    "directions"
+  ],
+  "endpoint": "full",
+  "identity": {
+    "status": "confirmed",
+    "official_name": "Galleria Deli",
+    "address": "1419 York Rd, Lutherville-Timonium, MD 21093",
+    "public_phone": "410-321-5860",
+    "public_email": null,
+    "website": "https://galleriadeli.com/",
+    "maps_url": "https://www.google.com/maps/search/?api=1&query=Galleria%20Deli%201419%20York%20Rd%2C%20Lutherville-Timonium%2C%20MD%2021093",
+    "social": {},
+    "evidence": [
+      {
+        "observed": "2026-10-18T14:28:07.734194+00:00",
+        "note": "Official website contact and independent Restaurantji listing match full street address and 410-321-5860; directory links official domain. Inspected 2026-10-18."
+      },
+      {
+        "observed": "2026-10-18T14:28:25.831456+00:00",
+        "note": "https://www.restaurantji.com/md/timonium/galleria-deli-inc-/ independently lists 1419 York Rd, Lutherville MD 21093 and (410) 321-5860 and links galleriadeli.com; official source https://galleriadeli.com/ same address/phone observed 2026-10-18."
+      }
+    ]
+  },
+  "environments": [
+    {
+      "name": "production",
+      "branch": "main",
+      "hostname": "galleriadeli.xsolutionsmd.com",
+      "slug": "galleria-deli"
+    },
+    {
+      "name": "derek-dev",
+      "branch": "derek-dev",
+      "hostname": "d-galleriadeli.xsolutionsmd.com",
+      "slug": "galleria-deli-derek-dev"
+    },
+    {
+      "name": "abdul-dev",
+      "branch": "abdul-dev",
+      "hostname": "a-galleriadeli.xsolutionsmd.com",
+      "slug": "galleria-deli-abdul-dev"
+    }
+  ],
+  "stages": {
+    "identity": {
+      "status": "pending"
+    },
+    "research": {
+      "status": "done",
+      "recorded": "2026-10-18T14:32:06.276293+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Sourced KB, full 54-item official menu across ten categories, published prices and ingredients, corroborated phone/address/hours; catering terms and external ordering unknown."
+      ]
+    },
+    "assets": {
+      "status": "done",
+      "recorded": "2026-10-18T14:48:46.292929+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": "node:delegated-task:command%3Amcp%3Ad7f4b7c5-bc0d-4d6f-bb45-fee46b08e8a9%3Adelegate-task%3Agalleria-assets-r1-20261018",
+      "prerequisites": {
+        "identity": null
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Accepted 17 authentic photos, hash/decode verification, all nine coverage entries and complete 54-row menu mapping. Seven-image shortlist supports restrained panels; no panoramic hero or forced rice-bowl photos."
+      ]
+    },
+    "spec": {
+      "status": "done",
+      "recorded": "2026-10-18T14:48:46.623120+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "research": "2026-10-18T14:32:06.276293+00:00",
+        "assets": "2026-10-18T14:48:46.292929+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Landing scope selected before reference: full menu on separate page, phone catering inquiry, visit/hours/directions; no custom ordering/payment or fake submission."
+      ]
+    },
+    "template": {
+      "status": "done",
+      "recorded": "2026-10-18T14:53:10.834304+00:00",
+      "workflow_version": 2,
+      "owner": "astra-xhigh",
+      "task_id": null,
+      "prerequisites": {
+        "spec": "2026-10-18T14:48:46.623120+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Francis Deli homepage/menu inspected desktop/mobile, menu category jump and mobile nav; restrained serif/cream/burgundy with image and text menu cards. Asset-fitting story split selected for opening. No Stitch."
+      ]
+    },
+    "content": {
+      "status": "pending"
+    },
+    "reconstruct": {
+      "status": "pending"
+    },
+    "backend": {
+      "status": "pending"
+    },
+    "refine": {
+      "status": "pending"
+    },
+    "build": {
+      "status": "pending"
+    },
+    "first-publish": {
+      "status": "pending"
+    },
+    "first-live-slack": {
+      "status": "pending"
+    },
+    "infra": {
+      "status": "pending"
+    },
+    "review": {
+      "status": "pending"
+    },
+    "fixes": {
+      "status": "pending"
+    },
+    "recheck": {
+      "status": "pending"
+    },
+    "deploy": {
+      "status": "pending"
+    },
+    "delivery": {
+      "status": "pending"
+    },
+    "final-handoff": {
+      "status": "pending"
+    }
+  },
+  "updated": "2026-10-18T14:53:10.839119+00:00"
+}
