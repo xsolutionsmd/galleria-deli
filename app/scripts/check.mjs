@@ -57,7 +57,8 @@ const resource = value => {
 const cssResources = text => {
   for (const m of text.matchAll(/url\(\s*(['"]?)(.*?)\1\s*\)|@import\s+['"]([^'"]+)['"]/gi)) resource(m[2] ?? m[3]);
 };
-const banned = [/\$\s?\d/, /\b\d(?:\.\d)?\s*[- ]?stars?\b/i, /testimonial/i, /\bpercent\b|\d+\s*%/i, /years? of experience/i];
+// Prices are sourced menu data here; verify them exactly below instead of banning them.
+const banned = [/\b\d(?:\.\d)?\s*[- ]?stars?\b/i, /testimonial/i, /\bpercent\b|\d+\s*%/i, /years? of experience/i];
 for (const name of files) {
   if (!/\.(html|css|[cm]?js)$/i.test(name)) continue;
   const source = readFileSync(join(dist, name), 'utf8');
@@ -94,6 +95,36 @@ for (const name of files) {
   for (const pattern of banned) check(!pattern.test(text), `${name}: unsupported claim pattern ${pattern}`);
 }
 for (const link of config.requiredLinks || []) check(links.has(link), `required link missing: ${link}`);
+for (const page of ['index.html', 'menu/index.html', 'catering/index.html', 'visit/index.html']) {
+  check(files.includes(page), `separate page missing: ${page}`);
+}
+const menu = JSON.parse(readFileSync(join(app, 'src/menu.json'), 'utf8'));
+const menuHtml = readFileSync(join(dist, 'menu/index.html'), 'utf8');
+const rows = [...menuHtml.matchAll(/<article\b[^>]*>[\s\S]*?<\/article>/g)].map(m => ({
+  attrs: attributes(m[0].slice(0, m[0].indexOf('>') + 1)),
+  text: decode(m[0].replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim(),
+}));
+const expected = menu.categories.flatMap(c => c.items.map(i => ({ ...i, category: c.name })));
+check(expected.length === 54 && rows.length === 54, `menu must have 54 items; source ${expected.length}, rendered ${rows.length}`);
+check(menu.categories.length === 10, 'menu must have ten categories');
+check(new Set(rows.map(r => r.attrs['data-item'])).size === 54, 'duplicate or missing menu item');
+for (const item of expected) {
+  const row = rows.find(r => r.attrs['data-item'] === item.name && r.attrs['data-category'] === item.category);
+  check(!!row, `menu item missing: ${item.name}`);
+  if (!row) continue;
+  check(row.attrs['data-price'] === item.price && row.text.includes(`$${Number(item.price).toFixed(2)}`), `price mismatch: ${item.name}`);
+  for (const line of item.description.split(/\n+/).filter(Boolean)) check(row.text.includes(line), `ingredient/modifier missing: ${item.name}: ${line}`);
+}
+for (const name of files.filter(n => /\.html$/.test(n))) {
+  const html = readFileSync(join(dist, name), 'utf8');
+  check((html.match(/<h1\b/g) || []).length === 1, `${name}: expected one h1`);
+  check(!/xs-stage|placeholder|mailto:|<form\b|<iframe\b/i.test(html), `${name}: placeholder or unsupported integration`);
+  for (const m of html.matchAll(/<img\b[^>]*>/g)) {
+    const a = attributes(m[0]);
+    check(a.alt && a.width && a.height, `${name}: image missing alt/dimensions`);
+    if (a.src?.startsWith('/')) check(existsSync(join(dist, a.src)), `${name}: missing image ${a.src}`);
+  }
+}
 const unexpected = [...external].filter(url => !(config.allowedExternalResources || []).some(allowed => url === allowed || (allowed.endsWith('/') && url.startsWith(allowed))));
 check(!unexpected.length, `unexpected external runtime resources: ${unexpected.join(', ')}`);
 if (failures.length) {

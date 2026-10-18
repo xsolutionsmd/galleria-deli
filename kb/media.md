@@ -43,7 +43,17 @@ The full library is in the private company folder (`private/assets/originals/`, 
 
 ## Used on the website
 
-None selected yet.
+| Site file | Type | Source page | Rights |
+|---|---|---|---|
+| app/public/assets/reuben-story.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=ROIVVXmhkJ0hH0IVof6huw | public-unverified |
+| app/public/assets/storefront.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=viHetqyL7HF-9u8-PJ1AqA | public-unverified |
+| app/public/assets/classic-cuban.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=8KivyqBszLQCy77OKviJLg | public-unverified |
+| app/public/assets/italian-cold-cut.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=fzmMHwflVWKz3s4STbXFgg | public-unverified |
+| app/public/assets/home-fries.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=7f2uGvhdg3w4e6Mqe07RXA | public-unverified |
+| app/public/assets/veggie-powerhouse.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=9xJantmu9FvMj616OCRNzg | public-unverified |
+| app/public/assets/egg-and-meat.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=doaUwsJKG-9Yt27Z9AtcCg | public-unverified |
+| app/public/assets/chicken-salad.webp | image | https://www.google.com/maps/place/Galleria+Deli+Inc/@39.4200149,-76.614883,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDBubu60QE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9T7a7sSDdHdTgU9sWsy4waqTiCHhFrP7rxDyR6zL_xshhBty1E0V8X_Bgw4kzq6x6cjcCieORK0NBUwzCSuli3eXf289Fn561Qu5f6yYO6XLtFLlm8dAQoYvCdBVHKjqCLUV9NE-w%3Dw203-h270-k-no!7i3456!8i4608!4m9!3m8!1s0x89c80e4867819e91:0xf98065bd01a8cf8a!8m2!3d39.4200149!4d-76.614883!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tg8kpr_?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D | public-unverified |
+| app/public/assets/dining-room.webp | image | https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=yTwCxbqX0ekDE82Vwn2udw | public-unverified |
 
 All collected media of the business may be used in every environment, including production,
 because this site is built for the business. The rights field records provenance only; it does not block use.
@@ -63,3 +73,9 @@ The four likely identifications are Galleria Turkey, Chicken Salad Club, Chicken
 Use the Reuben for a portrait/square split hero, Italian Cold Cut as a second food feature, the dining room for About, and the current storefront for Visit. Source images are 750?1024 pixels on their long or square side. They fit restrained panels/menu crops; no high-resolution panoramic hero, owner portrait, dedicated logo file or usable video was established. The sign photo is branding reference only.
 
 This was a bounded asset-stage pass. No asset has yet been placed on the website, and no Slack delivery or package completion is claimed. The build/delivery owners should reconcile the rendered menu and package the final library after selections are settled.
+
+## Reconstruction placement ? October 18, 2026
+
+Nine authentic originals now supply twelve optimized WebP files (662,122 bytes), visibly rendered on the four local pages. Nine of 54 menu items use confirmed dish photos; the other 45 are intentionally text-only. The four likely matches remain unused. Fresh Fruit and French toast are confirmed in the library but omitted as item photos because of seasonal/group-photo limitations. Home fries are cropped separately from the breakfast meal; no turkey-bacon or Breakfast Platter mislabeling.
+
+The public asset derivative map is `app/public/assets/provenance.json` (original hashes, source pages, dates and exact normalized crops). Item selection is `app/src/photos.json`. All Korean bowls remain text-only. The hero retains more source height to preserve the sandwich in the tall reference panel; menu cards use a separate tighter crop. Earlier pending/no-placement statements above describe the asset-stage snapshot. Reconstruction reconciled the rendered menu 54/54; the private source index is deliberately left for its authorized owner to update.

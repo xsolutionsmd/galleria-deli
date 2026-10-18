@@ -1,0 +1,57 @@
+{
+  "Classic Cuban": {
+    "file": "classic-cuban",
+    "alt": "Classic Cuban sandwich with a separately ordered side of fries",
+    "width": 750,
+    "height": 660
+  },
+  "Italian Cold Cut": {
+    "file": "italian-cold-cut",
+    "alt": "Italian Cold Cut sub with a separately ordered side of fries",
+    "width": 750,
+    "height": 750
+  },
+  "Veggie Powerhouse": {
+    "file": "veggie-powerhouse",
+    "alt": "Veggie Powerhouse on multigrain bread",
+    "width": 480,
+    "height": 284
+  },
+  "Grilled Salmon": {
+    "file": "grilled-salmon",
+    "alt": "Grilled salmon panini with spinach",
+    "width": 470,
+    "height": 307
+  },
+  "Chicken Salad": {
+    "file": "chicken-salad",
+    "alt": "Chicken salad on rye, with lettuce, tomato and a separately ordered side of fries",
+    "width": 768,
+    "height": 779
+  },
+  "Reuben": {
+    "file": "reuben",
+    "alt": "Reuben on grilled rye with a separately ordered side of fries",
+    "width": 750,
+    "height": 720
+  },
+  "French Fries": {
+    "file": "french-fries",
+    "alt": "French fries",
+    "width": 577,
+    "height": 250
+  },
+  "Egg and Meat Sandwich": {
+    "file": "egg-and-meat",
+    "alt": "Sausage and egg sandwich with cheese on a croissant",
+    "note": "Pictured with cheese and a croissant substitution (additional charges).",
+    "width": 900,
+    "height": 675
+  },
+  "Side of Home Fries": {
+    "file": "home-fries",
+    "alt": "Home fries with peppers and onions",
+    "width": 360,
+    "height": 307
+  }
+}

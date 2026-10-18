@@ -1,0 +1,184 @@
+[
+  {
+    "file": "/assets/reuben-story.webp",
+    "width": 660,
+    "height": 1000,
+    "original_sha256": "07cba8d6210ed06a8dbc0d7dabbfccf11c41cc95ccaa8fb6005be326c4762a4e",
+    "crop_box": [
+      0.06,
+      0,
+      0.94,
+      1
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=ROIVVXmhkJ0hH0IVof6huw",
+    "photographer": "John W.",
+    "posted": "2024-02-01",
+    "subject": "Reuben on grilled rye with French fries and pickle"
+  },
+  {
+    "file": "/assets/reuben.webp",
+    "width": 750,
+    "height": 720,
+    "original_sha256": "07cba8d6210ed06a8dbc0d7dabbfccf11c41cc95ccaa8fb6005be326c4762a4e",
+    "crop_box": [
+      0,
+      0.12,
+      1,
+      0.84
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=ROIVVXmhkJ0hH0IVof6huw",
+    "photographer": "John W.",
+    "posted": "2024-02-01",
+    "subject": "Reuben on grilled rye with French fries and pickle"
+  },
+  {
+    "file": "/assets/italian-cold-cut.webp",
+    "width": 750,
+    "height": 750,
+    "original_sha256": "fc9a20eddd59d883ecb53af2e0611fa1f358fc11f17b8ffe8e3f4524e2df9789",
+    "crop_box": [
+      0,
+      0.1,
+      1,
+      0.85
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=fzmMHwflVWKz3s4STbXFgg",
+    "photographer": "Derick Y.",
+    "posted": "2024-01-05",
+    "subject": "Italian Cold Cut sub with French fries and pickle"
+  },
+  {
+    "file": "/assets/dining-room.webp",
+    "width": 900,
+    "height": 900,
+    "original_sha256": "d9bd77d4cbcbfcb62457d6e1c94546bd353fbab7069a899f934260645fbe4489",
+    "crop_box": null,
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=yTwCxbqX0ekDE82Vwn2udw",
+    "photographer": "Lynn W.",
+    "posted": "2019-03-08",
+    "subject": "Dining area with tables and vegetable wall art"
+  },
+  {
+    "file": "/assets/storefront.webp",
+    "width": 652,
+    "height": 1000,
+    "original_sha256": "42b868b3f228fb4f53dfd71382fc6a8cba40a7dc5604bfdb303ed6507f6f8df1",
+    "crop_box": [
+      0,
+      0,
+      0.87,
+      1
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=viHetqyL7HF-9u8-PJ1AqA",
+    "photographer": "Dee R.",
+    "posted": "2023-08-17",
+    "subject": "Galleria Deli entrance and 1419 address"
+  },
+  {
+    "file": "/assets/classic-cuban.webp",
+    "width": 750,
+    "height": 660,
+    "original_sha256": "faed76239abb93385e67211b219e32b668f40b81347744dbd75c8e85b7e0e63a",
+    "crop_box": [
+      0,
+      0.22,
+      1,
+      0.88
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=8KivyqBszLQCy77OKviJLg",
+    "photographer": "John W.",
+    "posted": "2024-02-01",
+    "subject": "Classic Cuban sandwich with fries and pickle"
+  },
+  {
+    "file": "/assets/veggie-powerhouse.webp",
+    "width": 480,
+    "height": 284,
+    "original_sha256": "ee69446a21099b1fad531c5c2164e9d2b6e1e5dfc805b6b7e44800aabfd214c2",
+    "crop_box": [
+      0.44,
+      0.13,
+      0.92,
+      0.51
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=9xJantmu9FvMj616OCRNzg",
+    "photographer": "Michelle R.",
+    "posted": "2019-07-09",
+    "subject": "Grilled salmon panini and Veggie Powerhouse halves together"
+  },
+  {
+    "file": "/assets/grilled-salmon.webp",
+    "width": 470,
+    "height": 307,
+    "original_sha256": "ee69446a21099b1fad531c5c2164e9d2b6e1e5dfc805b6b7e44800aabfd214c2",
+    "crop_box": [
+      0.41,
+      0.49,
+      0.88,
+      0.9
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=9xJantmu9FvMj616OCRNzg",
+    "photographer": "Michelle R.",
+    "posted": "2019-07-09",
+    "subject": "Grilled salmon panini and Veggie Powerhouse halves together"
+  },
+  {
+    "file": "/assets/chicken-salad.webp",
+    "width": 768,
+    "height": 779,
+    "original_sha256": "bcf9f3452d53f383ed3c76b710db5b4b7fdf0562ed5a7132330f16f4952b9a8d",
+    "crop_box": [
+      0,
+      0.1,
+      1,
+      0.86
+    ],
+    "source": "https://www.google.com/maps/place/Galleria+Deli+Inc/@39.4200149,-76.614883,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDBubu60QE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9T7a7sSDdHdTgU9sWsy4waqTiCHhFrP7rxDyR6zL_xshhBty1E0V8X_Bgw4kzq6x6cjcCieORK0NBUwzCSuli3eXf289Fn561Qu5f6yYO6XLtFLlm8dAQoYvCdBVHKjqCLUV9NE-w%3Dw203-h270-k-no!7i3456!8i4608!4m9!3m8!1s0x89c80e4867819e91:0xf98065bd01a8cf8a!8m2!3d39.4200149!4d-76.614883!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tg8kpr_?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+    "photographer": "D Berry",
+    "posted": "2023-01",
+    "subject": "Chicken salad sandwich on rye with lettuce, tomato and fries"
+  },
+  {
+    "file": "/assets/french-fries.webp",
+    "width": 577,
+    "height": 250,
+    "original_sha256": "07cba8d6210ed06a8dbc0d7dabbfccf11c41cc95ccaa8fb6005be326c4762a4e",
+    "crop_box": [
+      0.1,
+      0.14,
+      0.87,
+      0.39
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=ROIVVXmhkJ0hH0IVof6huw",
+    "photographer": "John W.",
+    "posted": "2024-02-01",
+    "subject": "Reuben on grilled rye with French fries and pickle"
+  },
+  {
+    "file": "/assets/egg-and-meat.webp",
+    "width": 900,
+    "height": 675,
+    "original_sha256": "37a04a6fe8b8a20abc88c1904b2836c195f4c2f63407ddbce247be56e5d64a58",
+    "crop_box": null,
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=doaUwsJKG-9Yt27Z9AtcCg",
+    "photographer": "Maya G.",
+    "posted": "2018-09-12",
+    "subject": "Sausage, egg and cheese sandwich on croissant"
+  },
+  {
+    "file": "/assets/home-fries.webp",
+    "width": 360,
+    "height": 307,
+    "original_sha256": "ca82d51f1fae57ffd61d83ac6c534156d8405220b6547a7d6ca298a9e0cd967a",
+    "crop_box": [
+      0.03,
+      0.46,
+      0.39,
+      0.87
+    ],
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=7f2uGvhdg3w4e6Mqe07RXA",
+    "photographer": "Dee R.",
+    "posted": "2023-08-17",
+    "subject": "French toast with scrambled eggs and turkey bacon; separate home fries"
+  }
+]
