@@ -71,4 +71,4 @@ Prefer the business's own originals and the largest, best renditions.
 
 ## Derek-only expanded menu
 
-Derek renders16of54 menu rows with photographs:11confirmed and5likely matches;38rows remain text-only. Main/Abdul retain9confirmed photos and45text-only rows. Nineteen optimized WebP derivatives total963,982bytes, with exact crop/rotation and inference evidence in public provenance. The private library contains18originals; coverage is bounded, including a focused second pass over incomplete sources. Current package delivery follows final verification.
+Derek renders16of54 menu rows with photographs:11confirmed and5likely matches;38rows remain text-only. Main/Abdul retain9confirmed photos and45text-only rows. Nineteen optimized WebP derivatives total963,982bytes, with exact crop/rotation and inference evidence in public provenance. The private library contains18originals; coverage is bounded, including a focused second pass over incomplete sources. The current 18-original package was delivered once and verified after reload with an exact downloaded size/hash comparison. The prior 17-original package is historical; current delivery receipts remain private.

@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T19:38:39.791020+00:00):
+Pipeline status (generated 2026-10-18T20:12:31.734357+00:00):
 
 - **identity**: done
 - **research**: done
@@ -20,8 +20,8 @@ Pipeline status (generated 2026-10-18T19:38:39.791020+00:00):
 - **fixes**: done
 - **recheck**: done
 - **deploy**: done
-- **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
-- **final-handoff**: todo: blocked by delivery
+- **delivery**: done
+- **final-handoff**: done
 <!-- xs-status:end -->
 
 ## Current state and branch boundary
@@ -43,11 +43,13 @@ Seven additions: Galleria Turkey, Chicken Salad Club, Chicken Teriyaki, Fresh Ro
 
 Full original library/index and uncertain candidates were reinspected. Focused Maps All-gallery, Yelp, Facebook feed and matching Restaurantji checks added a clearer turkey photograph. The library now contains 18 authentic originals; 19 public WebP derivatives total 963,982 bytes. See media.md, app/src/photos.json and app/public/assets/provenance.json. All three Korean bowls and remaining unsupported distinct dishes still lack suitable photos. Seasonal soup/salad has no named official row and is not counted as item coverage.
 
-## Active checkpoint
+## Final photo-update checkpoint - October 18, 2026
 
-Normal final source/media/Slack delivery is accepted; the prior final reply was corrected in place and verified after reload. The current photo update is in build verification, followed by Derek-only publication, one focused independent photo/layout review, fixes only if necessary, and final preview/media delivery. The new library metadata makes the previous delivered package historical; deliver the changed package once and retain its verified receipt. The shared URL directory already has all three correct short URLs; no directory mutation is needed.
+Derek's photo implementation is independently reviewed at `7e46d7e63ba124d4669d16a82d559d4aab081f81`: 36 actual review cases passed, followed by 12 actual recheck cases passed, with zero failed/blocked cases or findings. The no-change fix disposition resolved no findings and required no product commit. All seven new source/crop mappings and all sixteen displayed associations were checked; five supported likely inferences remain explicitly qualified. Ordinary browser/devtools evidence was accepted; no REA repair or new design/research cycle is required.
 
-All application checks passed for the expanded 54-row menu. Final local/live desktop/mobile checks, review, deployed SHA and current package receipt are recorded in the private scoped update. Do not infer completion from this prepared checkpoint. Avoid bookkeeping-only release loops; record actual final revisions privately after the product push.
+The 18-original library package is delivered once to the team with persisted reload/readback and exact downloaded size/SHA verification. It contains all seventeen originals from the previous package plus the new original and six metadata files. The earlier normal-build delivery and final message remain dated receipts. The canonical URL directory already has the three correct URLs and requires no edit. Delivery details remain in company-private evidence.
+
+This final documentation commit changes no application, runtime, server, deploy, configuration, workflow, Dockerfile or Compose input. Its preview release, final photo-update reply and scoped cleanup are verified after the push and recorded privately. The remaining workflow action is coordinator inspection and acceptance of the final scoped receipt; the generated status above describes the accepted normal build, not acceptance of this update. Preserve main/Abdul at their separate nine-photo version.
 
 ## Operating limits and retention
 
