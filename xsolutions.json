@@ -193,11 +193,24 @@
       "status": "pending"
     },
     "delivery": {
-      "status": "pending"
+      "status": "done",
+      "recorded": "2026-10-18T17:45:42.494895+00:00",
+      "workflow_version": 2,
+      "owner": "sol-high",
+      "task_id": "node:delegated-task:command%3Amcp%3Ad7f4b7c5-bc0d-4d6f-bb45-fee46b08e8a9%3Adelegate-task%3Agalleria-final-handoff-r1-20261018",
+      "prerequisites": {
+        "assets": "2026-10-18T14:48:46.292929+00:00"
+      },
+      "fallback_task_id": null,
+      "quota_evidence": null,
+      "quota_exhausted": false,
+      "evidence": [
+        "Current 17-image library packaged with provenance and reconciled54-item photo index; delivered and verified after reload. Detailed receipts retained privately."
+      ]
     },
     "final-handoff": {
       "status": "pending"
     }
   },
-  "updated": "2026-10-18T16:34:33.057024+00:00"
+  "updated": "2026-10-18T17:45:42.517395+00:00"
 }

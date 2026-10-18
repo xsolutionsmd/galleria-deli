@@ -62,20 +62,14 @@ Do not ask again per file/source/environment or treat old reference-only/public-
 Preserve attribution, choose suitable real business media, and pass this standing confirmation to every delegated agent.
 Prefer the business's own originals and the largest, best renditions.
 
-## Menu-photo acceptance summary ? October 18, 2026
+## Final menu-photo acceptance — October 18, 2026
 
-The complete official and planned menu contains **54 named items**; category/name reconciliation passed 54/54. The private index maps **15 items** to authentic photographs: **11 confirmed and 4 likely**. The other **39 items have explicit missing-photo records**; none is silently omitted. Rendered-menu reconciliation is pending the later build stage.
+The official, planned and rendered menu reconciles **54/54 named items** across ten categories. The private authoritative `menu-items.json`, derived CSV and readable gallery retain **15 matches (11 confirmed, 4 likely)** and **39 explicit missing-photo records**. Nine confirmed item photos are rendered; 45 rows are text-only. All three Korean rice bowls remain photo gaps.
 
-The private library contains `menu-items.json` (authoritative), its derived `menu-items.csv`, and `menu-gallery.html`. Every collected food photograph has a subject, identification/crop notes, original filename, SHA256 and source attribution. The seven-image shortlist above supports a first site. All 17 originals passed hash and image-decode checks.
+The four likely identifications (Galleria Turkey, Chicken Salad Club, Chicken Teriyaki and Corned Beef) remain unused. Fresh Fruit and French toast are confirmed library matches but omitted as item photos because of seasonal/group-photo limits. The historical honey-mustard chicken wrap has no exact current-menu match. Preserve source captions, modifiers, confidence and historical recipe/portion qualifications; do not turn a group photo into unsupported dish matches.
 
-The four likely identifications are Galleria Turkey, Chicken Salad Club, Chicken Teriyaki and Corned Beef. Keep confidence and custom-order/history notes intact. All three Korean rice bowls remain photo gaps. A historical honey-mustard chicken wrap has no exact current-menu match; do not assign it to another wrap. Group photos support only the specifically identified dishes/crops, not every modifier or side option.
+All 17 originals (13 food, four premises) passed SHA256 verification. Nine selected originals supply twelve shipped WebP derivatives totaling **656,926 bytes**. `app/public/assets/provenance.json` records source hashes and exact crops; `app/src/photos.json` owns the nine menu placements. Final bounded inspection confirmed those nine crops against the existing identification evidence and live menu. No new source research was needed. Reuben/Italian sub, dining room and storefront retain the accepted reference placements.
 
-Use the Reuben for a portrait/square split hero, Italian Cold Cut as a second food feature, the dining room for About, and the current storefront for Visit. Source images are 750?1024 pixels on their long or square side. They fit restrained panels/menu crops; no high-resolution panoramic hero, owner portrait, dedicated logo file or usable video was established. The sign photo is branding reference only.
+All nine source families were checked: website complete; Yelp, Google Maps/reviews, Facebook and Instagram partial; ChowNow, DoorDash, Uber Eats and Grubhub unavailable with the recorded matching-location search limits. This is a bounded library, not exhaustive history. No high-resolution panoramic hero, owner portrait, standalone logo or usable video was established. The sign photo is a branding reference only. Standing owner permission applies across requested environments; preserve third-party provenance.
 
-This was a bounded asset-stage pass. No asset has yet been placed on the website, and no Slack delivery or package completion is claimed. The build/delivery owners should reconcile the rendered menu and package the final library after selections are settled.
-
-## Reconstruction placement ? October 18, 2026
-
-Nine authentic originals now supply twelve optimized WebP files (662,122 bytes), visibly rendered on the four local pages. Nine of 54 menu items use confirmed dish photos; the other 45 are intentionally text-only. The four likely matches remain unused. Fresh Fruit and French toast are confirmed in the library but omitted as item photos because of seasonal/group-photo limitations. Home fries are cropped separately from the breakfast meal; no turkey-bacon or Breakfast Platter mislabeling.
-
-The public asset derivative map is `app/public/assets/provenance.json` (original hashes, source pages, dates and exact normalized crops). Item selection is `app/src/photos.json`. All Korean bowls remain text-only. The hero retains more source height to preserve the sandwich in the tall reference panel; menu cards use a separate tighter crop. Earlier pending/no-placement statements above describe the asset-stage snapshot. Reconstruction reconciled the rendered menu 54/54; the private source index is deliberately left for its authorized owner to update.
+Package contents and verified Slack delivery are tracked privately. Keep originals, mapping, gallery and provenance together; do not publish the raw archive in this repository.
