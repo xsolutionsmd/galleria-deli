@@ -27,22 +27,18 @@ Pipeline status (generated 2026-10-18T14:53:52.119999+00:00):
 ## Current state
 
 Workflow: server-first (default). Full endpoint. Nothing published yet.
-Identity, research, usable assets, scope, template and content accepted October 18, 2026. Full official 54-item menu, matched address/phone and published weekly hours; 17 real photos and a complete menu/photo gap map. Dedicated company checkout on derek-dev; no sibling source changes.
+Identity, research, usable assets, scope, template, content, reconstruction and static runtime are accepted. Sol source revision `294e80c1c54857e703d57475c604dae98f786b65` contains all four pages, 54 official menu items and twelve optimized authentic photos. Coordinator independently checked its production container and inspected desktop/mobile output.
 
 ## Coordinator checkpoint
 
-Coordinator owns pipeline acceptance and this record. Astra asset task completed, was inspected/accepted, verified terminal with no pending runs, and released. Sol 6.1 High returned source revision `294e80c1c54857e703d57475c604dae98f786b65` on `derek-dev`; T3 confirms terminal with no pending runs. The four-page frontend and blueprint are complete, but the reconstruction gate is not accepted because the required REA helper was blocked. The private task ledger records completed work awaiting acceptance; no new frontend writer has been assigned.
+October 18, 2026: Derek explicitly answered "Accept browser evidence and continue" for Galleria Deli only. The documented browser inspection substitutes for the rejected REA capture; this supersedes the earlier pending-decision checkpoint. REA was not run and the denied helper must not be retried. Exact historical error/evidence remains in private/runs/template-analysis/rea-status.json. This exception changes no other company or remaining quality gate.
 
-## Last session
-
-The populated frontend includes all 54 official menu items, nine confirmed dish-photo rows and twelve optimized photo derivatives from nine originals. Sol's build, public-content, desktop/mobile, keyboard, containment and menu reconciliation checks passed. Coordinator inspected the actual opening and menu on desktop and catering on mobile, then built and tested the production nginx image: all four routes, health, revision, missing-route/asset/dotfile 404 and noindex headers passed. Runtime was read-only, non-root and healthy. See `docs/API.md` and company-private `private/runs/runtime-check-20261018.json`. These independent checks do not advance the ordered pipeline gates.
+Sol reconstruction task is accepted, terminal with no pending runs, and released. Coordinator owns state and this handoff. Claude Opus 5.5 High receives exclusive frontend refinement next; no parallel frontend writer. Static runtime contract is docs/API.md with private runtime receipt. Test container and image were removed after checked ownership; current local Vite preview at http://127.0.0.1:4391/ and source dependencies remain for immediate refinement. Recheck temporary build/cache retention at final delivery.
 
 ## Next step
 
-Await Derek's decision on accepting the supported browser evidence in place of the blocked REA capture for this company. An explicit exception permits accurate reconstruction acceptance and ownership release, followed by acceptance of the prepared runtime contract and Claude refinement. Without that exception, preserve the outstanding gate. First publication still precedes full GitHub/Actions and independent live review; final Sol handoff remains mandatory. Francis Deli reference already has item photos and text-only entries, so the conditional text-only-reference Derek photo variation does not apply.
+Claude refines Sol's existing source with the full KB/assets and captured Francis Deli reference. Astra accepts and performs readiness checks, then first Oracle publication and immediate Slack URL. Sol xhigh infrastructure follows, then independent Sol live review, Astra corrections, Sol recheck and final Sol delivery. No GitHub remote, public URL or Slack receipt exists yet. Francis Deli has mixed photo/text menu cards, so a conditional Derek-only photo variation is not applicable.
 
-## Blockers / waiting on
+## Material gaps
 
-The documented dedicated REA helper start was rejected before execution by automatic approval review: `rejected: blocked by policy`, with no further reason. Helper status is absent; no REA capture or Evidence ID exists. No retry or bypass was attempted. Exact evidence is in company-private `private/runs/template-analysis/rea-status.json`; this is browser-only analysis, not REA success. A narrow workflow-exception question was submitted to Derek after the independent runtime checks.
-
-Catering package/lead-time details and any external ordering service remain unverified and are not promised. Asset coverage: 15 menu matches (11 confirmed, four likely), 39 explicit photo gaps. No Korean bowl photos. No production/preview URLs, GitHub remote, Slack receipts or infrastructure acceptance exist yet.
+Catering package/lead-time details and any external ordering service remain unverified and are not promised. Asset coverage: 15 menu matches (11 confirmed, four likely), 39 explicit photo gaps; the implementation uses nine confirmed dish mappings only. No Korean bowl photo is fabricated. Published weekly hours are sourced; historical Google next-opening discrepancy and holiday hours remain unverified. No inferred customer sale.

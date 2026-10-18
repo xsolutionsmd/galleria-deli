@@ -2,6 +2,8 @@
 
 October 18, 2026. Reference selection and content gate were accepted before implementation. This document describes the populated frontend on `derek-dev`; it does not establish publication or later-stage acceptance.
 
+Scope-specific workflow exception, October 18, 2026: Derek explicitly accepted Sol's documented desktop/mobile browser inspection in place of the blocked REA capture for Galleria Deli and directed continuation through refinement and the full release. Coordinator accepts the supported reconstruction evidence on that basis. REA was not run; this exception does not change any other company or later quality gate.
+
 ## References and observed evidence
 
 - [Francis Deli homepage](https://francisdeli.com.au/): fixed cream navigation; burgundy story split; italic serif display; cream menu surface; telephone, directions and catering inquiry actions.
