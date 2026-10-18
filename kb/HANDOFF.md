@@ -1,7 +1,7 @@
 # Handoff
 
 <!-- xs-status:start -->
-Pipeline status (generated 2026-10-18T17:49:52.180364+00:00):
+Pipeline status (generated 2026-10-18T19:38:39.791020+00:00):
 
 - **identity**: done
 - **research**: done
@@ -20,34 +20,37 @@ Pipeline status (generated 2026-10-18T17:49:52.180364+00:00):
 - **fixes**: done
 - **recheck**: done
 - **deploy**: done
-- **delivery**: done
-- **final-handoff**: todo: current task requires a valid receipt; overall stage acceptance requires its completed checkpoint
+- **delivery**: todo: package the current library and record each part's verified Slack delivery to Abdul
+- **final-handoff**: todo: blocked by delivery
 <!-- xs-status:end -->
 
-## Current state
+## Current state and branch boundary
 
-Workflow: server-first (default), full endpoint. Production https://galleriadeli.xsolutionsmd.com, Derek https://d-galleriadeli.xsolutionsmd.com and Abdul https://a-galleriadeli.xsolutionsmd.com are verified at reviewed application revision `057069e2484dacf4c806d314e4fa00bff93936c8`. Repository: https://github.com/xsolutionsmd/galleria-deli. Final handoff documentation changes no application, runtime, server, configuration or workflow input. The final documentation release revision must be compared with each branch head and live `/version.json`; do not infer it from the reviewed application SHA.
+The normal full build was accepted on October 18, 2026 after protected PR #3, sequential releases and post-last-push checks. Production, Derek and Abdul were all verified at `8b0cab16bed34beb39d6f50cd6217af34575c258`; the application was unchanged from independently reviewed `057069e2484dacf4c806d314e4fa00bff93936c8`. All twelve route loads passed. The independent 38-case review includes desktop/mobile, four pages, card/control containment, keyboard, reduced motion, true JavaScript-off and trusted emulated touch. Physical-device/native-zoom testing is not claimed. Earlier transient TLS timeout cause remains unknown.
 
-Independent live recheck passed 38 current cases with zero failed/blocked cases and no unresolved findings. Actual desktop/mobile checks cover all four routes, both previews, narrow widths, card/control containment, keyboard focus, reduced motion, trusted emulated touch and true JavaScript-off navigation. Final verification again returned200 for all 12 environment/page combinations and confirmed the same source inputs. Browser-emulated touch is not a physical-device test; native zoom is not claimed. The earlier transient TLS timeout did not recur during these checks; its root cause/geographic extent remain unknown. No host or network repair is claimed.
+Production: https://galleriadeli.xsolutionsmd.com
+Derek: https://d-galleriadeli.xsolutionsmd.com
+Abdul: https://a-galleriadeli.xsolutionsmd.com
+Repository: https://github.com/xsolutionsmd/galleria-deli
 
-## Delivery and media
+## October 18 Derek photo update
 
-The complete official/planned/rendered menu reconciles 54/54 named rows in ten categories. Nine confirmed dish photographs are rendered and 45 rows are text-only. The private library retains 15 matches (11 confirmed, four likely) and 39 explicit photo gaps, including all three Korean rice bowls. Four likely matches remain unused. No substitute dish, invented package, online checkout, submission form, email or catering lead time was added. Call and address-matched Maps destinations remain the verified customer actions.
+The current direct request explicitly expands Derek's menu photographs, including confident contextual inferences and reasonable variants. It supersedes the old no-variation-needed interpretation and abandoned dispatcher release-grant loop. It does not authorize shared-host repair or main/Abdul product changes. Ordinary browser/devtools inspection is the accepted route; no REA repair or waiver is required.
 
-Seventeen originals passed hash verification. Nine originals supply twelve shipped WebP derivatives totaling 656,926 bytes. The public provenance and placement maps remain `app/public/assets/provenance.json` and `app/src/photos.json`; the authoritative private index, CSV and gallery now record actual rendered use. All nine source families were checked once with their honest bounded coverage/access limits. See `media.md`.
+Reuse the accepted Francis Deli design, typography, navigation and all 54 named menu rows. Derek now has 16 item-photo associations: 11 confirmed and five likely; 38 rows remain text-only. Main and Abdul deliberately retain nine confirmed photo rows and 45 text-only rows. Preserve this branch difference during any later sync; do not merge this variation into main or Abdul.
 
-The current library package was sent once to the established team recipient/channel and read back after reload; the downloaded file's exact 1,783,999 bytes and SHA256 match the original package. Final site/preview/repository/directory links and review/coverage limitations were sent as a reply to the original announcement and verified after reload. First-live, final, media and unchanged-directory receipts remain separate in the private project record. The directory already contained the three correct URLs; no shared edit was made.
+Seven additions: Galleria Turkey, Chicken Salad Club, Chicken Teriyaki, Fresh Roasted Turkey, Corned Beef, French toast and Fresh Fruit. The roast-turkey photo is a supported customized variant with paid croissant/avocado/cheese/sprouts clearly disclosed. The club omits tomato; fruit is a seasonal example. Inferences, alternatives and exact crop/rotation data are retained in provenance. No synthetic or other-business dishes are used.
 
-## Coordinator checkpoint and next action
+Full original library/index and uncertain candidates were reinspected. Focused Maps All-gallery, Yelp, Facebook feed and matching Restaurantji checks added a clearer turkey photograph. The library now contains 18 authentic originals; 19 public WebP derivatives total 963,982 bytes. See media.md, app/src/photos.json and app/public/assets/provenance.json. All three Korean bowls and remaining unsupported distinct dishes still lack suitable photos. Seasonal soup/salad has no named official row and is not counted as item coverage.
 
-Identity through independent recheck are accepted. Sol reconstructed the populated four-page frontend from Francis Deli; Claude's completed refinements were preserved after evidenced quota exhaustion, then Astra completed the checked handoff after the old writer stopped. Ordinary browser/devtools reference inspection is the accepted fallback when REA is unavailable; no further helper retry or waiver is required. The reference itself mixes photo/text menu cards, so no final Derek-only photo variation is required. Keep the same accepted design on all three branches.
+## Active checkpoint
 
-Infrastructure retains independent managed stacks, public packages, branch-restricted environments, protected-main checks and enabled updaters. Source/verification/media delivery are prepared for final coordinator inspection. Coordinator acceptance follows the final protected documentation source sync and post-last-push verification of actual environment revisions and meaningful source parity. The private task remains the authoritative acceptance record; do not mark overall completion from this public checkpoint alone. Temporary batch release serialization applies before any deployment-triggering push or merge.
+Normal final source/media/Slack delivery is accepted; the prior final reply was corrected in place and verified after reload. The current photo update is in build verification, followed by Derek-only publication, one focused independent photo/layout review, fixes only if necessary, and final preview/media delivery. The new library metadata makes the previous delivered package historical; deliver the changed package once and retain its verified receipt. The shared URL directory already has all three correct short URLs; no directory mutation is needed.
 
-## Cleanup and remaining limits
+All application checks passed for the expanded 54-row menu. Final local/live desktop/mobile checks, review, deployed SHA and current package receipt are recorded in the private scoped update. Do not infer completion from this prepared checkpoint. Avoid bookkeeping-only release loops; record actual final revisions privately after the product push.
 
-The local 4391 listener had already exited. Exact disposable `app/node_modules`, `app/dist` and the downloaded package verification copy were recycled: 24,957,188 bytes with three recovery entries verified; zero disk space freed by recycling and the Bin was not emptied. No Galleria disposable Docker containers/images remain. Earlier scoped runtime/rehearsal/staging cleanup is retained in private evidence. Preserve unrelated active work and standing VoiceVault/Budgie resources.
+## Operating limits and retention
 
-Retain source, originals, current package and review/delivery evidence for maintenance; recheck when superseded by an accepted update or owner retirement. Retain active remote stacks and current/recovery images under the installed current-plus-two/24-hour-grace policy; recheck on the next successful release/normal retention pass. No shared-host cleanup or configuration change was made.
+Call and matching-address Maps links remain the customer actions; catering stays phone inquiry only. No package/minimum/lead-time, checkout, email, holiday hours or sale/client approval is invented. Official published prices and weekly hours retain their source limits.
 
-Menu prices remain the official site's published values. Weekly hours are sourced; holidays and the historical Google next-opening discrepancy remain unknown. Catering packages/minimums/lead times, an online ordering provider and a published email remain unverified. No sale, client approval, outreach or recipient download/opening is inferred.
+Previous cleanup recycled 24,957,973 bytes with recovery proof, zero disk space freed, Bin not emptied. The new local dependency/build output is retained only for this preview check and must be recycled when the update finishes. Preserve current source, original library, latest delivered package and evidence for maintenance; recheck when superseded. Remote active stacks and current/recovery images follow installed retention. Preserve shared locks, sibling services, secrets and standing VoiceVault/Budgie resources.

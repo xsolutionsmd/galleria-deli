@@ -53,5 +53,51 @@
     "alt": "Home fries with peppers and onions",
     "width": 360,
     "height": 307
+  },
+  "Galleria Turkey": {
+    "file": "galleria-turkey",
+    "alt": "Roast turkey on a croissant with white cheese, avocado, sprouts and tomato",
+    "width": 900,
+    "height": 729
+  },
+  "Chicken Salad Club": {
+    "file": "chicken-salad-club",
+    "alt": "Chicken salad and bacon club on toast, pictured without tomato",
+    "width": 548,
+    "height": 460,
+    "note": "Pictured without tomato."
+  },
+  "Chicken Teriyaki": {
+    "file": "chicken-teriyaki",
+    "alt": "Chicken and rice wrap with lettuce and tomato",
+    "width": 900,
+    "height": 506
+  },
+  "Fresh Roasted Turkey": {
+    "file": "fresh-roasted-turkey",
+    "alt": "Roast turkey sandwich on a croissant with cheese, avocado, sprouts and tomato",
+    "width": 676,
+    "height": 666,
+    "note": "Pictured on a croissant with avocado, cheese and sprouts (additional charges)."
+  },
+  "Corned Beef": {
+    "file": "corned-beef",
+    "alt": "Corned beef sandwich on rye",
+    "width": 900,
+    "height": 678
+  },
+  "French toast": {
+    "file": "french-toast",
+    "alt": "French toast with eggs and turkey bacon in an individual order",
+    "width": 600,
+    "height": 443,
+    "note": "Pictured with eggs and breakfast meat (add-on)."
+  },
+  "Fresh Fruit": {
+    "file": "fresh-fruit",
+    "alt": "Fresh-cut watermelon",
+    "width": 315,
+    "height": 300,
+    "note": "Seasonal fruit selection varies."
   }
 }

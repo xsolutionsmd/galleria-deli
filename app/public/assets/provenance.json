@@ -180,5 +180,152 @@
     "photographer": "Dee R.",
     "posted": "2023-08-17",
     "subject": "French toast with scrambled eggs and turkey bacon; separate home fries"
+  },
+  {
+    "file": "/assets/galleria-turkey.webp",
+    "width": 900,
+    "height": 729,
+    "original_sha256": "79fcb671a370c9f484b2d2a3a56deaef2949df00cb7baab0ab9809899c2accc2",
+    "crop_box": [
+      0,
+      0.1,
+      1,
+      0.91
+    ],
+    "rotation_degrees_counterclockwise": 0,
+    "source": "https://www.google.com/maps/place/Galleria+Deli+Inc/@39.4200964,-76.6151082,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgIDNnt2jmgE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SPJyw6UJFoIIQ5EWft5EW15QuzzbD4uWZXayYItC6jxq38PPqmrqgNJrnoKwuWmmbCDjIacgNoXR6u0nycMyMhHtuotvuTJ3nuMgVqGorbYZoZ_z5wbYpsHv3HahtA7QyCD3vG%3Dw203-h203-k-no!7i3024!8i3024!4m9!3m8!1s0x89c80e4867819e91:0xf98065bd01a8cf8a!8m2!3d39.4200149!4d-76.614883!10e5!14m1!1BCgIgAQ!16s%2Fg%2F1tg8kpr_?entry=ttu",
+    "photographer": "Luis Ramirez",
+    "posted": "2024-01",
+    "subject": "Roast turkey on a croissant with white cheese, avocado, sprouts and tomato",
+    "menu_item": "Galleria Turkey",
+    "match": "likely",
+    "identification_evidence": "Distinctive croissant, roast turkey, white cheese, sprouts, avocado and tomato match the signature recipe. Luis Ramirez did not explicitly name the item; retain an inference.",
+    "environment": "derek-dev"
+  },
+  {
+    "file": "/assets/chicken-salad-club.webp",
+    "width": 548,
+    "height": 460,
+    "original_sha256": "c7f9b4dca8c95cd8f46038a1b993e43ba74fbb34ddfb65ced6cee28fe825c9b2",
+    "crop_box": [
+      0,
+      0.54,
+      0.73,
+      1
+    ],
+    "rotation_degrees_counterclockwise": 0,
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=rNpv30zbnlSmR0zLPq18RA",
+    "photographer": "MiMi K.",
+    "posted": "2024-12-17",
+    "subject": "Chicken salad and bacon club on toast, pictured without tomato",
+    "menu_item": "Chicken Salad Club",
+    "match": "likely",
+    "identification_evidence": "Chunky chicken salad, bacon, lettuce and three toast layers are visible. Author calls this a club and previously names this club; customized without tomato and with seasoning.",
+    "environment": "derek-dev"
+  },
+  {
+    "file": "/assets/chicken-teriyaki.webp",
+    "width": 900,
+    "height": 506,
+    "original_sha256": "42af1d049b0e8530c908bb48a5d3e01dd080ba6ce716f7a512d0fd48faac861d",
+    "crop_box": [
+      0.16,
+      0,
+      0.91,
+      1
+    ],
+    "rotation_degrees_counterclockwise": 90,
+    "source": "https://www.google.com/maps/place/Galleria+Deli+Inc/@39.4200149,-76.614883,3a,75y,90t/data=!3m8!1e2!3m6!1sCIABIhBnYD7BUAyxtvHcczmy524j!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9TLERi3ixX-TBhdr49-uKSYWtp250hhAyNjS5rOoxhooL9aTh3Yv0UBUsuzstsQeqWPUvolrdFGHghz_fETsf_yq3_TdZ1xWz1bc14GBqcPjNRcNAzonclfrItszLYhyqwYLokekLvHKi4K%3Dw203-h270-k-no!7i3024!8i4032!4m9!3m8!1s0x89c80e4867819e91:0xf98065bd01a8cf8a!8m2!3d39.4200149!4d-76.614883!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tg8kpr_?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+    "photographer": "Renee Brown",
+    "posted": "2026-07",
+    "subject": "Chicken and rice wrap with lettuce and tomato",
+    "menu_item": "Chicken Teriyaki",
+    "match": "likely",
+    "identification_evidence": "Chicken, rice, lettuce and tomato agree with the only current named rice wrap. Sauce is not conclusive. Restaurantji July 2026 excerpt names a teriyaki chicken wrap, but the author/photo association was not verified; retain likely.",
+    "environment": "derek-dev"
+  },
+  {
+    "file": "/assets/fresh-roasted-turkey.webp",
+    "width": 676,
+    "height": 666,
+    "original_sha256": "9d9d25dcebefe661be60de5db1f44224a8b3d9d80364d396f36095eaf2d2e492",
+    "crop_box": [
+      0,
+      0.18,
+      0.88,
+      0.83
+    ],
+    "rotation_degrees_counterclockwise": 0,
+    "source": "https://www.google.com/maps/place/Galleria+Deli+Inc/@39.4200149,-76.614883,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgMDooanrvgE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SFpIyXNBdv68uCLVwN_It7e_YOxvjn2wiIxGLpnjSv2Ozdl5Ij_ZfQqEavr5Bl6c7HvQUTCL9wxWopcLyuJK-ezlUS3lMA1LobnMlkm3hygxXlH6mKQpfqzcc9Xm-05xHw9xyuuA%3Dw203-h270-k-no!7i3024!8i4032!4m9!3m8!1s0x89c80e4867819e91:0xf98065bd01a8cf8a!8m2!3d39.4200149!4d-76.614883!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tg8kpr_?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+    "photographer": "Courtney Clayton",
+    "posted": "2025-04",
+    "subject": "Roast turkey sandwich on a croissant with cheese, avocado, sprouts and tomato",
+    "menu_item": "Fresh Roasted Turkey",
+    "match": "likely",
+    "identification_evidence": "Clearly visible roast turkey supports this menu row as a reasonable customized variant. Photo likely depicts Galleria Turkey; it is not proof of the base sandwich presentation. Every visible paid substitution is disclosed; not a separately confirmed SKU.",
+    "environment": "derek-dev"
+  },
+  {
+    "file": "/assets/corned-beef.webp",
+    "width": 900,
+    "height": 678,
+    "original_sha256": "54432757b5122863a40f021724afb1c1fffd7a1d1e20f3253fe5dfe53724d052",
+    "crop_box": [
+      0,
+      0,
+      1,
+      1
+    ],
+    "rotation_degrees_counterclockwise": 0,
+    "source": "https://www.google.com/maps/place/Galleria+Deli+Inc/@39.4200149,-76.614883,3a,75y,90t/data=!3m8!1e2!3m6!1sCIHM0ogKEICAgICbwdTO3AE!2e10!3e12!6shttps:%2F%2Flh3.googleusercontent.com%2Fgps-cs-s%2FANWiy9SsFp9gY3Q32PDnEpJq4DGCLqLt0SPKJoClQFFjQj4obhWRbt7PzpERMVlgAmYXqn8ExE-A0CZbnczSYL5-dOOwrKlZ1mkighb_mEBChYB9qIS6V1BrBZZRgwYM4hHJNflwSoMXsg%3Dw203-h152-k-no!7i4080!8i3072!4m9!3m8!1s0x89c80e4867819e91:0xf98065bd01a8cf8a!8m2!3d39.4200149!4d-76.614883!10e5!14m1!1BCgIYIA!16s%2Fg%2F1tg8kpr_?entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D",
+    "photographer": "Robin Stoops",
+    "posted": "2024-07",
+    "subject": "Corned beef sandwich on rye",
+    "menu_item": "Corned Beef",
+    "match": "likely",
+    "identification_evidence": "Pink thinly sliced cured beef on rye plus source corn-beef context support Corned Beef. No visible sauerkraut or Swiss supports a Reuben/Rachel assignment.",
+    "environment": "derek-dev"
+  },
+  {
+    "file": "/assets/french-toast.webp",
+    "width": 600,
+    "height": 443,
+    "original_sha256": "ca82d51f1fae57ffd61d83ac6c534156d8405220b6547a7d6ca298a9e0cd967a",
+    "crop_box": [
+      0.4,
+      0.31,
+      1,
+      0.9
+    ],
+    "rotation_degrees_counterclockwise": 0,
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=7f2uGvhdg3w4e6Mqe07RXA",
+    "photographer": "Dee R.",
+    "posted": "2023-08-17",
+    "subject": "French toast with eggs and turkey bacon in an individual order",
+    "menu_item": "French toast",
+    "match": "confirmed",
+    "identification_evidence": "Photo caption and Dee R. review explicitly identify French toast, eggs and turkey bacon. Crop includes the toast and ordered add-ons, excludes separate home fries. Historical meal, not a breakfast-platter claim.",
+    "environment": "derek-dev"
+  },
+  {
+    "file": "/assets/fresh-fruit.webp",
+    "width": 315,
+    "height": 300,
+    "original_sha256": "4b10ca33482dc93ca73cf43a3b8b322ba495564142972ddf11484643b8207c18",
+    "crop_box": [
+      0.58,
+      0.16,
+      1,
+      0.46
+    ],
+    "rotation_degrees_counterclockwise": 0,
+    "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=gnGTW4liTLTdUZI880a2hA",
+    "photographer": "Lauren S.",
+    "posted": "2015-09-01",
+    "subject": "Fresh-cut watermelon",
+    "menu_item": "Fresh Fruit",
+    "match": "confirmed",
+    "identification_evidence": "Author review explicitly names the watermelon. Crop excludes unidentified filled wrap; this is a seasonal example, not a promise that watermelon is available today.",
+    "environment": "derek-dev"
   }
 ]
