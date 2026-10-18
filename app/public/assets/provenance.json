@@ -1,14 +1,14 @@
 [
   {
     "file": "/assets/reuben-story.webp",
-    "width": 660,
-    "height": 1000,
+    "width": 706,
+    "height": 890,
     "original_sha256": "07cba8d6210ed06a8dbc0d7dabbfccf11c41cc95ccaa8fb6005be326c4762a4e",
     "crop_box": [
-      0.06,
-      0,
-      0.94,
-      1
+      0.03,
+      0.04,
+      0.97,
+      0.93
     ],
     "source": "https://www.yelp.com/biz_photos/galleria-deli-lutherville-timonium?select=ROIVVXmhkJ0hH0IVof6huw",
     "photographer": "John W.",
@@ -61,11 +61,11 @@
   {
     "file": "/assets/storefront.webp",
     "width": 652,
-    "height": 1000,
+    "height": 780,
     "original_sha256": "42b868b3f228fb4f53dfd71382fc6a8cba40a7dc5604bfdb303ed6507f6f8df1",
     "crop_box": [
       0,
-      0,
+      0.22,
       0.87,
       1
     ],

@@ -18,3 +18,22 @@ Sol 6.1 High populated the existing Vite static frontend on `derek-dev`, from ba
 REA limitation: specifically authorized dedicated-helper start for session `galleria-reconstruct-20261018` was rejected before execution with `rejected: blocked by policy`, without a more specific reason. No endpoint or REA Evidence ID was returned; no bypass was attempted. Exact attempt is retained in `rea-status.json`; subsequent documented helper status returned `absent`. Browser inspection is not mislabeled as REA success. No helper process/profile or Docker resource was created.
 
 Not performed in this reconstruction assignment: Docker/container checks, server publication, production health/revision, hosted previews, external social-card retrieval, backend/refinement/pipeline acceptance. Catering packages/lead times and an ordering service remain unknown and are not promised. The private menu-photo index still has its asset-stage pending-rendered field; only its authorized owner should advance that separate record.
+
+## Claude refinement — October 18, 2026
+
+Claude Opus 5.5 High refined Sol's existing frontend on `derek-dev`, starting from `7a2f8bc` (source unchanged by the parent's `f28ef90` instruction commit). Changes and reasons are recorded in `kb/template-blueprint.md`. No runtime, Docker, backend or infrastructure file was changed. Local evidence only; not publication.
+
+- Reference comparison used ordinary browser inspection of the live Francis Deli menu (computed styles of the text-only card in its Fried section; mobile sheet background/link/pill colors at 390px). REA was not used.
+- `npm run check` passed after the changes: Vite build, four HTML routes, 21 built files, required phone/maps/page links, noindex, local media, unsupported-claim patterns, 54 menu rows in ten categories with every price/ingredient/modifier. `xs_company.py check-public --slug galleria-deli` passed.
+- Task-owned T3 incognito tab on the retained preview `http://127.0.0.1:4391/`: all four routes at 1440, 720, 390 and 320 CSS px had zero horizontal overflow, zero broken images, one `h1`, and no child escaping its menu card, practical link, hours row, category chip or CTA parent. Menu rendered 54 cards: nine photo cards, 45 compact text-only cards (32px corners, 30px on phones).
+- 320px with every computed font size and pixel line height doubled: all four routes had zero overflow and zero card/control escapes; the header grew to 148px and `main` reserved 149px.
+- Mobile navigation (390px): burgundy sheet opened with Close focused; Shift+Tab from Close wrapped to the cream call pill (3px cream focus ring); Tab wrapped back to Close; Escape closed and returned focus to the menu toggle. Selecting Catering in the sheet loaded `/catering/`; browser Back restored `/menu/` with all 54 items.
+- Category jump (390px): Korean Specials link updated the hash, placed the focused heading 109px from the top below the 81px header, and showed the three bowl cards as text-only.
+- Keyboard focus (1440px): Tab to the opening's cream "Explore the menu" button showed a visible 3px cream ring and kept the 999px pill radius (previously burgundy-on-burgundy with a 5px radius).
+- Recropped images decoded at their new dimensions (opening portrait 706×890, storefront 652×780). Visual inspection confirmed no diner lap/floor in the opening and no neighboring nail-shop sign on Visit at desktop or phone.
+- Reduced motion: the shipped media rule still disables all transitions, animations and smooth scrolling, and now also cancels the photo-card lift selector. The OS preference itself was not toggled.
+- Not performed: Docker/container rebuild, hosted environments, social-card retrieval. No calls were placed and nothing was submitted.
+
+## Refinement completion
+
+Astra completed the refinement handoff after the original provider was stopped following a usage interruption. Existing source refinements and evidence were preserved. Final native-browser checks of all four routes at1440 and390 CSSpx found no overflow, broken photos or card/control escapes; all54 menu items remained. The mobile dialog's actual transition finished at full viewport bounds, Shift+Tab/Tab wrapped correctly, Escape closed it and restored trigger focus. Production build/static checks and public-content check passed. This is local readiness evidence; hosted verification follows publication.
