@@ -31,16 +31,18 @@ Identity, research, usable assets, scope, template and content accepted October 
 
 ## Coordinator checkpoint
 
-Coordinator owns pipeline acceptance and this record. Astra asset task completed, was inspected/accepted, verified terminal with no pending runs, and released. Sol 6.1 High now owns the frontend reconstruction and blueprint; exact provider identity/write boundaries are in the private ledger. Starting revision 3adfb8f55c81a1fa417dac2c14a263abc531fca9. Current scaffold instructions agree with the canonical sequence.
+Coordinator owns pipeline acceptance and this record. Astra asset task completed, was inspected/accepted, verified terminal with no pending runs, and released. Sol 6.1 High returned source revision `294e80c1c54857e703d57475c604dae98f786b65` on `derek-dev`; T3 confirms terminal with no pending runs. The four-page frontend and blueprint are complete, but the reconstruction gate is not accepted because the required REA helper was blocked. The private task ledger records completed work awaiting acceptance; no new frontend writer has been assigned.
 
 ## Last session
 
-Read current project/design/XS policies, checked existing identities, reserved the short business URL key and initialized the local lifecycle files. Read-only Oracle check found no colliding route or container. Main customer flows were chosen before reference search: full menu, catering phone inquiry, call and directions on separate pages.
+The populated frontend includes all 54 official menu items, nine confirmed dish-photo rows and twelve optimized photo derivatives from nine originals. Sol's build, public-content, desktop/mobile, keyboard, containment and menu reconciliation checks passed. Coordinator inspected the actual opening and menu on desktop and catering on mobile, then built and tested the production nginx image: all four routes, health, revision, missing-route/asset/dotfile 404 and noindex headers passed. Runtime was read-only, non-root and healthy. See `docs/API.md` and company-private `private/runs/runtime-check-20261018.json`. These independent checks do not advance the ordered pipeline gates.
 
 ## Next step
 
-Accept Sol's actual runnable reconstruction, blueprint, REA evidence and desktop/mobile checks. Astra then checks runtime/integrations before Claude refinement. First publication precedes full GitHub/Actions and independent live review; final Sol handoff remains mandatory. Francis Deli reference already has item photos and text-only entries, so the conditional text-only-reference Derek photo variation does not apply.
+Await Derek's decision on accepting the supported browser evidence in place of the blocked REA capture for this company. An explicit exception permits accurate reconstruction acceptance and ownership release, followed by acceptance of the prepared runtime contract and Claude refinement. Without that exception, preserve the outstanding gate. First publication still precedes full GitHub/Actions and independent live review; final Sol handoff remains mandatory. Francis Deli reference already has item photos and text-only entries, so the conditional text-only-reference Derek photo variation does not apply.
 
 ## Blockers / waiting on
 
-No current access blocker. Catering package/lead-time details and any external ordering service remain unverified and are not promised. Asset coverage: 15 menu matches (11 confirmed, four likely), 39 explicit photo gaps. No Korean bowl photos. REA helper's historical execution-review restriction is documented; Sol must report the actual current attempt honestly.
+The documented dedicated REA helper start was rejected before execution by automatic approval review: `rejected: blocked by policy`, with no further reason. Helper status is absent; no REA capture or Evidence ID exists. No retry or bypass was attempted. Exact evidence is in company-private `private/runs/template-analysis/rea-status.json`; this is browser-only analysis, not REA success. A narrow workflow-exception question was submitted to Derek after the independent runtime checks.
+
+Catering package/lead-time details and any external ordering service remain unverified and are not promised. Asset coverage: 15 menu matches (11 confirmed, four likely), 39 explicit photo gaps. No Korean bowl photos. No production/preview URLs, GitHub remote, Slack receipts or infrastructure acceptance exist yet.
